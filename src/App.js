@@ -13,7 +13,6 @@ import OrderPage from "./pages/OrderPage.js";
 import StaffPage from "./pages/StaffPage.js";
 
 //stylesheet and images
-import logo from "./logo.svg";
 import { GiPalmTree } from "react-icons/gi";
 import { GiHeraldicSun } from "react-icons/gi";
 import "./App.css";
@@ -29,7 +28,6 @@ function App() {
       <BrowserRouter>
 
       <header>
-        {/* <img src={logo} className="App-logo" alt="logo"/> */}
 
         <h1>
           <i alt="heraldic sun icon"><GiHeraldicSun/> </i>
