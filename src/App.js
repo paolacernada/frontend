@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import products from "./data/products.js";
@@ -21,6 +21,12 @@ import "./App.css";
 function App() {
 
   const [course, setCourse] = useState([])
+
+  useEffect(() => {
+    const url = `${process.env.PORT}`
+    fetch(url)
+      .then((res) => res.json())
+  });
 
   return (
     
