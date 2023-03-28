@@ -6,7 +6,7 @@ function StaffRow({teamMember}) {
             <tr>
 
                 <td>
-                    <img src={teamMember.picture.thumbnail} alt="The profile picture of a random human collected from the website 'randomuser.me'"/>
+                    <img src={teamMember.picture.thumbnail} alt="The profile of a random human collected from the website 'randomuser.me'"/>
                 </td>
 
                 <td>

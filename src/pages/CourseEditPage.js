@@ -16,7 +16,7 @@ export const CourseEditPage = ({ course }) => {
     const editCourse = async () => {
 
 
-        const response = await fetch(`https://paolacernada-website.herokuapp.com/courseRegistry/${course._id}`, {
+        const response = await fetch(`/courseRegistry/${course._id}`, {
             method: "PUT", 
             body: JSON.stringify({
                 courseNumber: courseNumber, 

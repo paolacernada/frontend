@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ProductRow from "../components/ProductRow.js";
 import { FaRegHandPointDown } from "react-icons/fa";
 
