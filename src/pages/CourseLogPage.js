@@ -10,7 +10,7 @@ function CourseLogPage({ setCourse }) {
     const [courses, setCourses] = useState([]);
 
     const retrieveCourses = async () => {
-        const response = await fetch ("https://paolacernada-website.herokuapp.com");
+        const response = await fetch ("https://paolacernada-website.herokuapp.com/courseRegistry");
         const courses = await response.json();
         setCourses(courses);
     }
@@ -23,10 +23,10 @@ function CourseLogPage({ setCourse }) {
 
     const deleteCourse = async id => {
 
-        const response = await fetch(`https://paolacernada-website.herokuapp.com/${id}`, { method: "DELETE"});
+        const response = await fetch(`/courseRegistry/${id}`, { method: "DELETE"});
 
         if (response.status === 204) {
-            const getResponse = await fetch("https://paolacernada-website.herokuapp.com");
+            const getResponse = await fetch("courseRegistry");
             const courses = await getResponse.json();
             setCourses(courses);
         } else {
