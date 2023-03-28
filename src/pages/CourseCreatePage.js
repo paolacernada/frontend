@@ -18,7 +18,7 @@ export const CourseCreatePage = () => {
 
         const newCourse = {courseNumber, title, credits, date};
 
-        const response = await fetch("/courseRegistry", {
+        const response = await fetch("/", {
             method: "POST", 
             body: JSON.stringify(newCourse), 
             headers: {
