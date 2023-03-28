@@ -23,10 +23,10 @@ function CourseLogPage({ setCourse }) {
 
     const deleteCourse = async id => {
 
-        const response = await fetch(`${id}`, { method: "DELETE"});
+        const response = await fetch(`/courseRegistry/${id}`, { method: "DELETE"});
 
         if (response.status === 204) {
-            const getResponse = await fetch("https://paolacernada-website.herokuapp.com");
+            const getResponse = await fetch("courseRegistry");
             const courses = await getResponse.json();
             setCourses(courses);
         } else {
