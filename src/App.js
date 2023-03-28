@@ -25,7 +25,6 @@ function App() {
   useEffect(() => {
     const url = `${process.env.PORT}`
     fetch(url)
-      .then((res) => res.json())
   });
 
   return (
