@@ -22,11 +22,6 @@ function App() {
 
   const [course, setCourse] = useState([])
 
-  useEffect(() => {
-    const url = `${process.env.PORT}`
-    fetch(url)
-  });
-
   return (
     
     <>
