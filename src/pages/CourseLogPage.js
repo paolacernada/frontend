@@ -10,7 +10,7 @@ function CourseLogPage({ setCourse }) {
     const [courses, setCourses] = useState([]);
 
     const retrieveCourses = async () => {
-        const response = await fetch ("https://paolacernada-website.herokuapp.com/courseRegistry");
+        const response = await fetch ("/courseRegistry");
         const courses = await response.json();
         setCourses(courses);
     }
