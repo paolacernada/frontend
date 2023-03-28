@@ -26,7 +26,7 @@ function CourseLogPage({ setCourse }) {
         const response = await fetch(`${id}`, { method: "DELETE"});
 
         if (response.status === 204) {
-            const getResponse = await fetch("/");
+            const getResponse = await fetch("https://paolacernada-website.herokuapp.com");
             const courses = await getResponse.json();
             setCourses(courses);
         } else {
