@@ -18,7 +18,7 @@ export const CourseCreatePage = () => {
 
         const newCourse = {courseNumber, title, credits, date};
 
-        const response = await fetch("/", {
+        const response = await fetch("https://paolacernada-website.herokuapp.com/courseRegistry", {
             method: "POST", 
             body: JSON.stringify(newCourse), 
             headers: {
