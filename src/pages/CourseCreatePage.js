@@ -10,7 +10,6 @@ export const CourseCreatePage = () => {
     const [courseNumber, setCourseNumber] = useState("");
     const [title, setTitle] = useState("");
     const [credits, setCredits] = useState("0");
-    const [status, setStatus] = useState();
     const [date, setDate] = useState();
 
     const navigate = useNavigate()
@@ -101,18 +100,6 @@ export const CourseCreatePage = () => {
                             autoFocus
                             />
                             </label></td>
-
-                        <td className="status"><label for="status" class="required">
-                            <input 
-                            type="boolean" 
-                            autocomplete="off"
-                            value={status} 
-                            id="status" 
-                            name="status"
-                            onChange={e => setStatus(e.target.value)} required
-                            autoFocus
-                            />
-                        </label></td>
 
                         <td><label for="date" class="required">
                             <input 
