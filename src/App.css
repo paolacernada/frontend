@@ -493,6 +493,7 @@
   
   .buttonLabel {
       display: inline-block;
+      color: var(--Eggplant);
   }
   
   .button {
