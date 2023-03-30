@@ -49,31 +49,7 @@ const myPhotos = [
         thumbnail: "images/augmented-reality-UI.jpg",
         description: `Augmented Reality UI`,
         originalHeight: "450px",
-    },
-    {
-        original: "images/ducal-palace-of-urbino-italy.jpg",
-        thumbnail: "images/ducal-palace-of-urbino-italy.jpg",
-        description: `The Ducal Palace in Urbino, Italy`,
-        originalHeight: "450px",
-    },
-    {
-        original: "images/the-colosseum-rome-italy.jpg",
-        thumbnail: "images/the-colosseum-rome-italy.jpg",
-        description: `The Colosseum in Rome, Italy`,
-        originalHeight: "450px",
-    },
-    {
-        original: "images/monument-to-king-jose-lisbon-portugal.jpg",
-        thumbnail: "images/monument-to-king-jose-lisbon-portugal.jpg",
-        description: `King José I in Lisbon, Portugal`,
-        originalHeight: "450px",
-    },
-    {
-        original: "images/busch-gardens-christmas-town-williamsburg-virginia.jpg",
-        thumbnail: "images/busch-gardens-christmas-town-williamsburg-virginia.jpg",
-        description: `Busch Gardens in Williamsburg, VA`,
-        originalHeight: "450px",
-    },
+    }
 
     ]
 
@@ -83,7 +59,7 @@ function GalleryPage() {
     <>
         <h2>Gallery</h2>
 
-        <p>Projects and Travels</p>
+        <p>Projects I have completed.</p>
 
         <article>
             <ImageGallery items={myPhotos} />
