@@ -7,7 +7,7 @@ function CourseLogTable({ courses, onDelete, onEdit }) {
 
     return (
         <table className="teamMembersTable">
-            <caption>Register the courses you have completed at OSU here.</caption>
+            <caption>Register the programming courses you have completed here.</caption>
 
             <thead className="courseHead">
                 <tr>
