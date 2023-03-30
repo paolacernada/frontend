@@ -38,7 +38,6 @@
       --AirSuperiority: hsla(203, 35%, 55%, 0.25);
       --Independence: #5D576B;
       --DarkIndependence: #4a4555;
-      --Eggplant: #4B5C6D;
       --MistyRose: #F1DEDE;
       --MistyRoseTrans: hsla(0, 40%, 91%, 0.7);
       --MorningBlue: hsla(163, 17%, 55%, 0.85);
@@ -87,7 +86,6 @@
       background-color: var(--MorningBlue);
       background-attachment: fixed;
       border: none;
-      color: var(--Independence);
       margin: 0%;
       padding: 3%;
   }
@@ -488,7 +486,7 @@
   
   .buttonLabel {
       display: inline-block;
-      color: var(--Eggplant);
+      color: var(--Independence);
   }
   
   .button {
