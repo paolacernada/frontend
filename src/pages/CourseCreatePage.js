@@ -59,7 +59,7 @@ export const CourseCreatePage = () => {
                     </tr>
                 </thead>
 
-                <tbody>
+                <tbody className="courseBody">
                     <tr>
                         <td></td>
                         <td></td>

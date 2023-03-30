@@ -1,4 +1,7 @@
 /*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+    @media only screen and (max-device-width: 480px) {
+
+    }
 /*  ===== See tablet, desktop, and print @media queries at the bottom. */
 
 
@@ -411,6 +414,10 @@
 
    .courseHeadAdd th:nth-child(2) {
     width: 8%;
+   }
+
+   .courseBody {
+    vertical-align: middle;
    }
 
   th {}
