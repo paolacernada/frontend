@@ -7,7 +7,7 @@ import { RiFileAddLine } from "react-icons/ri";
 
 export const CourseCreatePage = () => {
 
-    const [courseNumber, setCourseNumber] = useState("CS-");
+    const [courseNumber, setCourseNumber] = useState("");
     const [title, setTitle] = useState("");
     const [credits, setCredits] = useState("0");
     const [date, setDate] = useState();
@@ -70,6 +70,7 @@ export const CourseCreatePage = () => {
                             value={courseNumber} 
                             id="courseNum" 
                             name="courseNumber"
+                            placeholder="CS-###"
                             onChange={e => setCourseNumber(e.target.value)} required
                             autoFocus
                             />
