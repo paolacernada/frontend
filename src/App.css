@@ -38,8 +38,7 @@
       --AirSuperiority: hsla(203, 35%, 55%, 0.25);
       --Independence: #5D576B;
       --DarkIndependence: #4a4555;
-      --Charcoal: #2E4052;
-      --DelftBlue: #685369;
+      --Eggplant: #685369;
       --MistyRose: #F1DEDE;
       --MistyRoseTrans: hsla(0, 40%, 91%, 0.7);
       --MorningBlue: hsla(163, 17%, 55%, 0.5);
@@ -61,7 +60,7 @@
       background-position: top left;
       background-repeat: no-repeat;
       border: 6px solid var(--PolishedPine);
-      color: var(--DelftBlue);
+      color: var(--Independence);
       font-family: "Mukta", sans-serif; /* Define with at least one font name and its related generic family name.*/
       font-size: large;
       line-height: 1.5;
@@ -87,7 +86,7 @@
       background-color: var(--MorningBlue);
       background-attachment: fixed;
       border: none;
-      color: var(--DelftBlue);
+      color: var(--Eggplant);
       margin: 0%;
       padding: 3%;
   }
@@ -241,14 +240,16 @@
   h1 {}
   
   h2 {
-    color: var(--Independence);
+    color: var(--Eggplant);
   }
   
   h3 {
-    color: var(--Independence);
+    color: var(--Eggplant);
   }
   
-  h4 {}
+  h4 {
+    color: var(--Eggplant);
+  }
   
   h5 {}
   
@@ -353,6 +354,7 @@
   
   .petProductTable tbody {
       background-color: var(--MistyRoseTrans);
+      color: var(--Independence);
   }
   
   tfoot {}
