@@ -23,15 +23,23 @@ function CourseLogPage({ setCourse }) {
 
     const deleteCourse = async id => {
 
-        const response = await fetch(`/courseRegistry/${id}`, { method: "DELETE"});
+        const response = await fetch("https://paolacernada-website.herokuapp.com", {
+            method: "DELETE", 
+            body: JSON.stringify({id:`${id}`}), 
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
 
-        if (response.status === 204) {
-            const getResponse = await fetch("https://paolacernada-website.herokuapp.com");
-            const courses = await getResponse.json();
-            setCourses(courses);
-        } else {
-            console.error(`Failed to delete the row with id: ${id} (status code = 204)`)
-        }
+        // const response = await fetch(`/courseRegistry/${id}`, { method: "DELETE"});
+
+        // if (response.status === 204) {
+        //     const getResponse = await fetch("https://paolacernada-website.herokuapp.com");
+        //     const courses = await getResponse.json();
+        //     setCourses(courses);
+        // } else {
+        //     console.error(`Failed to delete the row with id: ${id} (status code = 204)`)
+        // }
     }
 
     useEffect(() => {
