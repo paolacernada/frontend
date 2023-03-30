@@ -59,12 +59,12 @@ export const CourseCreatePage = () => {
                     </tr>
                 </thead>
 
-                <tbody className="courseBody">
+                <tbody>
                     <tr>
                         <td></td>
                         <td></td>
                         <td><label for="courseNum" class="required">
-                            <input 
+                            <input className="courseAlign"
                             type="text" 
                             autocomplete="off"
                             value={courseNumber} 
@@ -77,7 +77,7 @@ export const CourseCreatePage = () => {
                             </label></td>
 
                         <td className="courseName"><label for="courseName" class="required">
-                            <input 
+                            <input className="courseAlign"
                             type="text" 
                             autocomplete="off"
                             value={title} 
@@ -89,7 +89,7 @@ export const CourseCreatePage = () => {
                             </label></td>
 
                         <td><label for="credits" class="required">
-                            <input 
+                            <input className="courseAlign"
                             type="number" 
                             value={credits}
                             min="0"
@@ -102,7 +102,7 @@ export const CourseCreatePage = () => {
                             </label></td>
 
                         <td><label for="date" class="required">
-                            <input 
+                            <input className="courseAlign"
                             type="date" 
                             value={date} 
                             id="date" 
