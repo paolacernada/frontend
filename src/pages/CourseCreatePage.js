@@ -42,7 +42,7 @@ export const CourseCreatePage = () => {
         <h2>My Completed Courses Registry <i><GiNotebook/></i></h2>
 
         <article>
-            <p>Add the courses you have completed at Oregon State University.</p>
+            <p>Add the courses you have completed below.</p>
 
             <table className="teamMembersTable">
                 <caption>Add a completed course to the registry.</caption>
@@ -72,7 +72,8 @@ export const CourseCreatePage = () => {
                             name="courseNumber"
                             placeholder="CS- # "
                             onChange={e => setCourseNumber(e.target.value)} required
-                            oninvalid="this.setCustomValidity('Enter Value Here')" oninput="setCustomValidity('Enter the course number CS-1XX')"
+                            oninvalid="this.setCustomValidity('Enter Value Here')" 
+                            onInput="setCustomValidity('Enter the course number CS-1XX')"
                             autoFocus
                             />
                             </label></td>
