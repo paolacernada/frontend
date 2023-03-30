@@ -70,8 +70,9 @@ export const CourseCreatePage = () => {
                             value={courseNumber} 
                             id="courseNum" 
                             name="courseNumber"
-                            placeholder="CS-###"
+                            placeholder="CS- # "
                             onChange={e => setCourseNumber(e.target.value)} required
+                            oninvalid="this.setCustomValidity('Enter Value Here')" oninput="setCustomValidity('Enter the course number CS-1XX')"
                             autoFocus
                             />
                             </label></td>
