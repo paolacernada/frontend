@@ -1,5 +1,7 @@
 /*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
 
+@media only screen and (max-width: 600px) { }
+
 /*  ===== See tablet, desktop, and print @media queries at the bottom. */
 
 
@@ -61,7 +63,7 @@
       background-position: top left;
       background-repeat: no-repeat;
       border: 6px solid var(--PolishedPine);
-      color: var(--Independence);
+      color: var(--MistyRose);
       font-family: "Mukta", sans-serif; /* Define with at least one font name and its related generic family name.*/
       font-size: large;
       line-height: 1.5;
@@ -412,10 +414,6 @@
 
    .courseHeadAdd th:nth-child(2) {
     width: 8%;
-   }
-
-   .courseAlign {
-    vertical-align: middle;
    }
 
   th {}
