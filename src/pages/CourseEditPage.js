@@ -46,7 +46,7 @@ export const CourseEditPage = ({ course }) => {
         <h2>My Completed Courses Registry <i><GiNotebook/></i></h2>
 
         <article>
-            <p>Add the courses you have completed at Oregon State University.</p>
+            <p>Add the courses you have completed below.</p>
 
             <table className="teamMembersTable">
                 <caption>Edit a course in the registry.</caption>
