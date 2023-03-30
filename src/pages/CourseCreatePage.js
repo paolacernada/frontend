@@ -101,6 +101,15 @@ export const CourseCreatePage = () => {
                             />
                             </label></td>
 
+                        <td>
+                            <label for="status" class="required"></label>
+                            <select name="status" id="status">
+                                <option value="none" selected disabled hidden>Select an Option</option>
+                                <option value="In-Progress">In-Progress</option>
+                                <option value="Completed">Completed</option>
+                            </select>
+                        </td>
+
                         <td><label for="date" class="required">
                             <input 
                             type="date" 
