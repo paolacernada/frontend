@@ -39,7 +39,8 @@
   
       --AliceBlue: #EBF5FB;
       --AirSuperiority: hsla(203, 35%, 55%, 0.25);
-      --Independence: #2F4F4F;
+      --Independence: #5D576B;
+      --DarkSlateGray: #2F4F4F;
       --DarkIndependence: #4a4555;
       --MistyRose: #F1DEDE;
       --MistyRoseTrans: hsla(0, 40%, 91%, 0.7);
@@ -63,7 +64,7 @@
       background-position: top left;
       background-repeat: no-repeat;
       border: 6px solid var(--PolishedPine);
-      color: var(--Independence);
+      color: var(--DarkSlateGray);
       font-family: "Mukta", sans-serif; /* Define with at least one font name and its related generic family name.*/
       font-size: large;
       line-height: 1.5;
@@ -346,6 +347,7 @@
   
   .teamMembersTable tbody {
       background-color: var(--SilverSolid);
+      color: var(--Independence);
   }
   
   .petProductTable tbody {
