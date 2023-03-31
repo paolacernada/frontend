@@ -25,6 +25,9 @@ function StaffPage() {
 
         <p>Below I communicate with randomuser.me a website that provides open-source API for generating random user data. The data below is pulled via API call.</p>
 
+        <p>The data below is pulled via API call.</p>
+
+
         <label className="buttonLabel" for="getTeamMemberInfoFromTheServer">Make a call to the</label>&nbsp;&nbsp;
         <button className="button" onClick={getData}
         name="getTeamMemberInfoFromTheServer" 
