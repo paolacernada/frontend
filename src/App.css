@@ -40,7 +40,7 @@
       --AliceBlue: #EBF5FB;
       --AirSuperiority: hsla(203, 35%, 55%, 0.25);
       --Independence: #5D576B;
-      --DarkSlateGray: #696969;
+      --DarkSlateGray: #434242;
       --DarkIndependence: #4a4555;
       --MistyRose: #F1DEDE;
       --MistyRoseTrans: hsla(0, 40%, 91%, 0.7);
@@ -384,6 +384,7 @@
   
   .courseHead th:nth-child(1) {
     width: 8%;
+    margin-left: 3px;
    }
 
    .courseHead th:nth-child(2) {
