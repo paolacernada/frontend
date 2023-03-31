@@ -7,8 +7,8 @@ function Nav() {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/courseRegistry">Courses</Link>
-            <Link to="/concepts">Concepts</Link>
+            <Link to="/courseRegistry">CRUD Registry</Link>
+            <Link to="/concepts">Web Concepts</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/order">Order</Link>
             <Link to="/API">API</Link>

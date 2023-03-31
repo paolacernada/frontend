@@ -50,11 +50,11 @@ function CourseLogPage({ setCourse }) {
 
         <>
 
-            <h2>Course Registry <i><GiNotebook/></i></h2>
+            <h2>College Courses <i><GiNotebook/></i></h2>
 
             <article>
                 <p>
-                    By clicking the "add" icon, you can add a completed course to the table below. You may also edit or remove an existing entry.
+                    I created this page in order to keep track of all the programming courses I have already completed or those that are currently in progress. 
                 </p>
 
                 <CourseLogTable

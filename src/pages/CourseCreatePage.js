@@ -39,13 +39,13 @@ export const CourseCreatePage = () => {
     
     <>
 
-        <h2>My Completed Courses Registry <i><GiNotebook/></i></h2>
+        <h2>My Completed and In-Progress College Courses <i><GiNotebook/></i></h2>
 
         <article>
-            <p>Add the courses you have completed below.</p>
+            <p>Add the programming courses you have completed and currently taking below.</p>
 
             <table className="teamMembersTable">
-                <caption>Add a completed course to the registry.</caption>
+                <caption>Add a course to the registry.</caption>
 
                 <thead className="courseHeadAdd"> 
                     <tr>
