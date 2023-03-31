@@ -32,7 +32,7 @@ export const CourseCreatePage = () => {
             alert("The course could not be added because of a missing input.")
         }
 
-        navigate("/CRUD-registry");
+        navigate("/Courses");
     };
 
     return (

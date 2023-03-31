@@ -44,7 +44,7 @@ function App() {
 
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/CRUD-registry" element={<CourseLogPage setCourse={setCourse} />} />
+            <Route path="/Courses" element={<CourseLogPage setCourse={setCourse} />} />
             <Route path="/add-course" element={<CourseCreatePage />} />
             <Route path="/edit-course" element={<CourseEditPage course={course} />} />
             <Route path="/web-concepts" element={<ConceptsPage />} />

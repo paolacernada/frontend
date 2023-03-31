@@ -30,10 +30,10 @@ export const CourseEditPage = ({ course }) => {
         });
 
         if(response.status === 200){
-            navigate("/CRUD-registry");
+            navigate("/Courses");
             alert("The course has been successfully edited.")
         } else {
-            navigate("/CRUD-registry");
+            navigate("/Courses");
             alert("The course could not be updated because of a missing input.")
         }
 
