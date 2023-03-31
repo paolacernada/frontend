@@ -384,7 +384,7 @@
   
   .courseHead th:nth-child(1) {
     width: 8%;
-    padding-left: 30px;
+    padding-left: 22px;
    }
 
    .courseHead th:nth-child(2) {
@@ -492,7 +492,7 @@
   
   .buttonLabel {
       display: inline-block;
-      color: var(--Independence);
+      color: var(----DarkSlateGray);
   }
   
   .button {
