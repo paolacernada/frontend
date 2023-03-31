@@ -44,10 +44,10 @@ function App() {
 
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/courseRegistry" element={<CourseLogPage setCourse={setCourse} />} />
+            <Route path="/CRUD-registry" element={<CourseLogPage setCourse={setCourse} />} />
             <Route path="/add-course" element={<CourseCreatePage />} />
             <Route path="/edit-course" element={<CourseEditPage course={course} />} />
-            <Route path="/concepts" element={<ConceptsPage />} />
+            <Route path="/web-concepts" element={<ConceptsPage />} />
             <Route path="/projects" element={<GalleryPage />} />
             <Route path="/order" element={<OrderPage products={products}/>} />
             <Route path="/API" element={<StaffPage />} />
