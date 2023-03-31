@@ -48,9 +48,9 @@ function App() {
             <Route path="/add-course" element={<CourseCreatePage />} />
             <Route path="/edit-course" element={<CourseEditPage course={course} />} />
             <Route path="/concepts" element={<ConceptsPage />} />
-            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/projects" element={<GalleryPage />} />
             <Route path="/order" element={<OrderPage products={products}/>} />
-            <Route path="/staff" element={<StaffPage />} />
+            <Route path="/API" element={<StaffPage />} />
 
             
           </Routes>

@@ -7,11 +7,11 @@ function Nav() {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/courseRegistry">Registry</Link>
+            <Link to="/courseRegistry">Courses</Link>
             <Link to="/concepts">Concepts</Link>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/projects">Projects</Link>
             <Link to="/order">Order</Link>
-            <Link to="/staff">Staff</Link>
+            <Link to="/API">API</Link>
         </nav>
     );
 }

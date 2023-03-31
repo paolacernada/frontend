@@ -5,7 +5,7 @@ function StaffPage() {
 
   const [results, setData] = useState([]);
   const getData = () => {
-    fetch("https://randomuser.me/api/?results=10")
+    fetch("https://randomuser.me/api/?results")
     .then((dataCollected) => dataCollected.json())
     .then((dataCollected) => {
       setData(dataCollected.results);
@@ -22,22 +22,21 @@ function StaffPage() {
       <h2>Meet Our Team</h2>
 
       <article className="teamMembersArticle">
-        <p>We are a growing team of young professionals. We wear many hats and are devoted to assisting businesses in implementing software solutions.</p>
 
-        <p>We communicate with a website that provides each individual's information. This data can be pulled via API call.</p>
+        <p>Below I communicate with randomuser.me a website that provides open-source API for generating random user data. The data below is pulled via API call.</p>
 
-        <label className="buttonLabel" for="getTeamMemberInfoFromTheServer">To view our team click</label>&nbsp;&nbsp;
+        <label className="buttonLabel" for="getTeamMemberInfoFromTheServer">Make a call to the</label>&nbsp;&nbsp;
         <button className="button" onClick={getData}
         name="getTeamMemberInfoFromTheServer" 
         value="Pull Team Member Info from the server"
-        id="getTeamMemberInfoFromTheServer">here</button>
+        id="getTeamMemberInfoFromTheServer">API</button>
         
         <table className="teamMembersTable">
-            <caption>Our Staff</caption>
+            <caption>Randomly Generated Users</caption>
 
             <thead>
                 <tr>
-                    <th>Staff</th>
+                    <th>Portrait</th>
                     <th>Name &amp; Email</th>
                     <th>Phone</th>
                     <th>City</th>

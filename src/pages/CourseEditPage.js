@@ -40,7 +40,7 @@ export const CourseEditPage = ({ course }) => {
     };
 
     return (
-    //remove this
+  
     <>
 
         <h2>My Completed Courses Registry <i><GiNotebook/></i></h2>
