@@ -23,7 +23,7 @@ function StaffPage() {
 
       <article className="teamMembersArticle">
 
-        <p>Below I communicate with randomuser.me a website that provides open-source API for generating random user data. The data below is pulled via API call.</p>
+        <p>Below I communicate with randomuser.me a website that provides open-source API for generating random user data.</p>
 
         <p>The data below is pulled via API call.</p>
 
