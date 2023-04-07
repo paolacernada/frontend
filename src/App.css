@@ -148,8 +148,8 @@
   
   nav a {
       background-color: var(--MorningBlue);
-      /* border: 2px solid var(--MediumPuce);
-      border-radius: 5px 5px; */
+      border: 2px solid var(--MorningBlue);
+      border-radius: 5px 5px;
       color: var(--DarkSlateGray);
       font-size: 1.3em;
       font-weight: bold;
