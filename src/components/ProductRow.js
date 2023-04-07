@@ -5,8 +5,8 @@ function ProductRow({ selectedProduct }) {
     return (
     
         <tr>
-            <td>{selectedProduct.product}</td>
             <td>{selectedProduct.company}</td>
+            <td>{selectedProduct.product}</td>
             <td>{selectedProduct.price.toLocaleString('en-US', {     
                 style: "currency",     
                 currency: "USD",     

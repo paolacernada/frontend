@@ -13,7 +13,7 @@ function OrderPage({ products }) {
             <p>Place your order below <i alt="hand pointing down icon"><FaRegHandPointDown/> </i></p>
 
                     <table className="petProductTable">
-                        <caption>You can order no more than <strong>10</strong> of each of the below products</caption>
+                        <caption>You can order no more than <strong>10</strong> of each of the below products.</caption>
 
                         <thead>
                             <tr>
