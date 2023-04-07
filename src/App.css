@@ -1,6 +1,6 @@
 /*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
 
-@media only screen and (max-width: 600px) { }
+@media only screen and (max-width: 600px) and (max-height: 600px){ }
 
 /*  ===== See tablet, desktop, and print @media queries at the bottom. */
 
