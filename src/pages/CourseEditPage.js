@@ -30,7 +30,7 @@ export const CourseEditPage = ({ course }) => {
         });
 
         if(response.status === 200){
-            navigate("/Courses");
+            navigate("/my-courses");
             alert("The course has been successfully edited.")
         } else {
             navigate("/my-courses");
