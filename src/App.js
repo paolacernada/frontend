@@ -30,7 +30,7 @@ function App() {
       <header>
 
         <h1>
-          <i alt="palm tree icon"> <GiPalmTree/></i>
+          {/* <i alt="palm tree icon"> <GiPalmTree/> </i> */}
           Paola Cernada
           <i alt="palm tree icon"> <GiPalmTree/></i>
         </h1>
