@@ -172,7 +172,7 @@
   }
   
   .second-a {
-      background-color: var(--MistyRoseTrans);
+      background-color: whitesmoke;
       border: none;
       color: var(--PolishedPine);
       font-size: 1.1em;
@@ -303,7 +303,7 @@
   /*  ----- Table ----- */
   table {
       border-collapse: collapse;
-      border: 2px solid var(--PolishedPine);
+      border: 2px solid whitesmoke;
       margin: 0%;
       min-width: 550px;
       max-width: 75%;
@@ -511,7 +511,7 @@
   }
   
   .button:focus {
-      background-color: var(--PolishedPineTrans);
+      background-color: var(--MorningBlue);
       border: none;
       color: var(--AliceBlue);
   }
@@ -660,7 +660,7 @@
 }
 
 .image-gallery-content.fullscreen{
-    background-color: var(--MistyRose);
+    background-color: whitesmoke;
     /* background-image: url("images/beach-las-terrenas-samana-the-dominican-republic.png"); */
   }
 
@@ -673,7 +673,7 @@
 }
 
 .image-gallery-thumbnail:hover {
-    border: 3px solid var(--PolishedPine);}
+    border: 3px solid var(--MorningBlue);}
 
 .image-gallery-thumbnail.active {
     border: 3px solid var(--MediumPuce);
@@ -690,12 +690,12 @@
 }
 
 :not(:root):fullscreen::backdrop {
-    background: var(--MistyRose);
+    background: whitesmoke;
 }
 
 .image-gallery-icon:hover {
     background: none;
-    color: var(--PolishedPine);
+    color: var(--MorningBlue);
 }
 
 .image-gallery-fullscreen-button .image-gallery-svg, .image-gallery-play-button .image-gallery-svg {
