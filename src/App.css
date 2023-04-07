@@ -82,7 +82,7 @@
       background-color: var(--MorningBlue);
       background-size: cover;
       border: none;
-      color: var(--MediumPuce);
+      color: whitesmoke;
       /* line-height: 0.8; */
       margin: 0%;
       padding: 2%;
@@ -118,7 +118,7 @@
   footer {
       background-color: var(--MorningBlue);
       border: none;
-      color: var(--MediumPuce);
+      color: whitesmoke;
       margin: 0%;
       padding: 1%;
   }
