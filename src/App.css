@@ -58,7 +58,7 @@
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
   body {
       /* Can alternatively define in html {} or :root {} */
-      background-image: url(images/beach-las-terrenas-samana-the-dominican-republic.png);
+      background-image: url(images/pexels-evie-shaffer.jpg);
       background-size: cover;
       background-attachment: fixed;
       background-position: top left;
