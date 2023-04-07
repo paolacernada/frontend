@@ -50,7 +50,7 @@ function CourseLogPage({ setCourse }) {
 
         <>
 
-            <h2>College Courses <i><GiNotebook/></i></h2>
+            <h2>My College Courses <i><GiNotebook/></i></h2>
 
             <article>
                 <p>
