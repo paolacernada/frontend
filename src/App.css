@@ -79,7 +79,7 @@
   /*  ----- Page layout blocks -----  */
   header {
       /* background-image: url(images/pc-header-background.png); */
-      background-color: var(--PolishedPine);
+      background-color: var(--MorningBlue);
       background-size: cover;
       border: none;
       color: var(--MediumSalmon);
@@ -90,7 +90,7 @@
   }
   
   main {
-      background-color: var(--MorningBlue);
+      background-color: var(--MistyRoseTrans);
       background-attachment: fixed;
       border: none;
       margin: 0%;
@@ -116,7 +116,7 @@
   aside {}
   
   footer {
-      background-color: var(--PolishedPine);
+      background-color: var(--MorningBlue);
       border: none;
       color: var(--MediumSalmon);
       margin: 0%;
