@@ -145,7 +145,7 @@
   
   nav a {
       background-color: var(--AirSuperiority);
-      border: 2px solid var(--MediumPuce);
+      border: 2px solid var(--LightPuceTrans);
       border-radius: 5px 5px;
       color: var(--MistyRose);
       font-size: 1.3em;
@@ -156,7 +156,7 @@
   }
   
   nav a:hover {
-      background-color: var(--MediumPuce);
+      background-color: var(--LightPuceTrans);
       color: var(--TwilightLavender);
       text-decoration: none;
   }
