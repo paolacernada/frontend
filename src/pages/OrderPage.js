@@ -7,13 +7,13 @@ function OrderPage({ products }) {
   return (
 
     <>
-      <h2>College Supplies</h2>
+      <h2>Order College Supplies</h2>
 
         <article>
             <p>Place your order below <i alt="hand pointing down icon"><FaRegHandPointDown/> </i></p>
 
                     <table className="petProductTable">
-                        <caption>You can order no more than <strong>10</strong> of each of the below products from us</caption>
+                        <caption>You can order no more than <strong>10</strong> of each of the below products</caption>
 
                         <thead>
                             <tr>
