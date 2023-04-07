@@ -78,7 +78,8 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-color: var(--MistyRoseTrans);
+      background-image: url(images/pc-header-background.png);
+      /* background-color: var(--MistyRoseTrans); */
       border: none;
       color: var(--MediumSalmon);
       line-height: 0.8;
