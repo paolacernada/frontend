@@ -59,12 +59,12 @@
   body {
       /* Can alternatively define in html {} or :root {} */
       /* background-image: url(images/pexels-madison-inouye.jpg); */
-      background-color: var(--PolishedPine);
+      background-color: var(--MistyRoseTrans);
       background-size: cover;
       background-attachment: fixed;
       background-position: top left;
       background-repeat: no-repeat;
-      border: 6px solid var(--PolishedPine);
+      border: 6px solid var(--MistyRoseTrans);
       color: var(--DarkSlateGray);
       font-family: "Mukta", sans-serif; /* Define with at least one font name and its related generic family name.*/
       font-size: large;
@@ -79,7 +79,7 @@
   /*  ----- Page layout blocks -----  */
   header {
       /* background-image: url(images/pc-header-background.png); */
-      background-color: var(--MistyRoseTrans);
+      background-color: var(--PolishedPine);
       background-size: cover;
       border: none;
       color: var(--MediumSalmon);
@@ -116,7 +116,7 @@
   aside {}
   
   footer {
-      background-color: var(--MistyRoseTrans);
+      background-color: var(--PolishedPine);
       border: none;
       color: var(--MediumSalmon);
       margin: 0%;
@@ -136,7 +136,7 @@
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
   nav {
-      background-color: var(--PolishedPine);
+      background-color: var(--MistyRoseTrans);
       line-height: 2;
       padding: 2%;
       text-align: center;
