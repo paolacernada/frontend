@@ -78,9 +78,9 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-color: var(--MorningBlue);
+      background-color: var(--MistyRoseTrans);
       border: none;
-      color: var(--DarkSlateGray);
+      color: var(--MediumSalmon);
       line-height: 0.8;
       margin: 0%;
       padding: 2%;
@@ -114,7 +114,7 @@
   aside {}
   
   footer {
-      background-color: var(--MorningBlue);
+      background-color: var(--MistyRoseTrans);
       border: none;
       color: var(--MediumSalmon);
       margin: 0%;
