@@ -59,7 +59,7 @@
   body {
       /* Can alternatively define in html {} or :root {} */
       /* background-image: url(images/pexels-madison-inouye.jpg); */
-      background-color: var(--MistyRose);
+      background-color: whitesmoke;
       background-size: cover;
       background-attachment: fixed;
       background-position: top left;
@@ -90,7 +90,7 @@
   }
   
   main {
-      background-color: var(--MistyRose);
+      background-color: whitesmoke;
       background-attachment: fixed;
       border: none;
       margin: 0%;
