@@ -1,6 +1,10 @@
 /*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
 
-@media only screen and (max-width: 600px) { }
+@media only screen and (max-width: 600px) { 
+    .home #x-content-band-1 {
+        height: auto !important;
+     }
+}
 
 /*  ===== See tablet, desktop, and print @media queries at the bottom. */
 
@@ -118,7 +122,7 @@
       color: var(--MediumSalmon);
       margin: 0%;
       padding: 1%;
-      position: absolute;
+      position: relative;
   }
   
   /* ----- Anchors ----- Text links */
