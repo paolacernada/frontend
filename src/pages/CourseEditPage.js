@@ -33,7 +33,7 @@ export const CourseEditPage = ({ course }) => {
             navigate("/Courses");
             alert("The course has been successfully edited.")
         } else {
-            navigate("/Courses");
+            navigate("/my-courses");
             alert("The course could not be updated because of a missing input.")
         }
 
