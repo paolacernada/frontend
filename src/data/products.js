@@ -5,8 +5,8 @@ const products = [
     { company: 'OfficeMax', product: 'Notebooks', price: 5.99 },
     { company: 'Amazon', product: 'Gel Pens, Dozen', price: 19.99 },
     { company: 'Staples', product: 'Jester Backpack', price: 75.00 },
-    { company: 'Target', product: 'Avery 1" Round Ring Binder', price: 2.19 },
-    { company: 'Walmart', product: 'Pen+Gear Copy Paper, 750 Sheets', price: 8.44 }
+    { company: 'Target', product: '1" Round Ring Binder', price: 2.19 },
+    { company: 'Walmart', product: 'Copy Paper, 750 Sheets', price: 8.44 }
 ];
 
 // Allow exporting of the object to other functions:
