@@ -118,6 +118,7 @@
       color: var(--MediumSalmon);
       margin: 0%;
       padding: 1%;
+      position: absolute;
   }
   
   /* ----- Anchors ----- Text links */
