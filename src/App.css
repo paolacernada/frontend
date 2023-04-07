@@ -77,7 +77,7 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-color: var(--LightPuceTrans);
+      background-color: var(--MorningBlue);
       border: none;
       color: var(--MediumSalmon);
       line-height: 0.8;
@@ -113,7 +113,7 @@
   aside {}
   
   footer {
-      background-color: var(--DarkPuceTrans);
+      background-color: var(--MorningBlue);
       border: none;
       color: var(--MediumSalmon);
       margin: 0%;
@@ -145,7 +145,7 @@
   
   nav a {
       background-color: var(--AirSuperiority);
-      border: 2px solid var(--LightPuceTrans);
+      border: 2px solid var(--MediumPuce);
       border-radius: 5px 5px;
       color: var(--MistyRose);
       font-size: 1.3em;
@@ -156,7 +156,7 @@
   }
   
   nav a:hover {
-      background-color: var(--LightPuceTrans);
+      background-color: var(--MediumPuce);
       color: var(--TwilightLavender);
       text-decoration: none;
   }
