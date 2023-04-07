@@ -136,7 +136,7 @@
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
   nav {
-      background-color: var(--MistyRoseTrans);
+      background-color: whitesmoke;
       line-height: 2;
       padding: 2%;
       text-align: center;
@@ -165,7 +165,7 @@
   }
   
   #second-nav {
-      background-color: var(--MistyRose);
+      background-color: whitesmoke;
       padding: 1%;
       text-align: center;
       text-decoration: none;
