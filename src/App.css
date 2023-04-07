@@ -136,7 +136,7 @@
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
   nav {
-      background-color: whitesmoke;
+      background-color: var(--MorningBlue);
       line-height: 2;
       padding: 2%;
       text-align: center;
@@ -156,6 +156,7 @@
       margin: 3px;
       padding: 3px 10px 5px 10px;
       text-decoration: none;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
   
   nav a:hover {
