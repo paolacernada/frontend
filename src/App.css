@@ -136,7 +136,7 @@
   
   /*  ----- Navigation ----- Override text links for navigation only.  */
   nav {
-      background-color: var(--MorningBlue);
+      background-color: var(--MorningBlue2);
       line-height: 2;
       padding: 2%;
       text-align: center;
