@@ -78,8 +78,8 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-image: url(images/pc-header-background.png);
-      /* background-color: var(--MorningBlue); */
+      /* background-image: url(images/pc-header-background.png); */
+      background-color: var(--MorningBlue);
       background-size: cover;
       border: none;
       color: whitesmoke;
