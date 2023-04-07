@@ -78,7 +78,7 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-image: url(images/pc-header-background-1.png);
+      background-image: url(images/pc-header-background.png);
       /* background-color: var(--MorningBlue); */
       background-size: cover;
       border: none;
@@ -148,7 +148,7 @@
   
   nav a {
       background-color: var(--MorningBlue);
-      border: 2px solid var(--MorningBlue);
+      /* border: 2px solid var(--MorningBlue); */
       border-radius: 5px 5px;
       color: var(--DarkSlateGray);
       font-size: 1.3em;
