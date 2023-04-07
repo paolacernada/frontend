@@ -19,7 +19,7 @@ function StaffPage() {
   return (
 
     <>
-      <h2>Meet Our Team</h2>
+      <h2>API Page</h2>
 
       <article className="teamMembersArticle">
 

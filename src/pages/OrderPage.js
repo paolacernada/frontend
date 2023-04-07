@@ -7,7 +7,7 @@ function OrderPage({ products }) {
   return (
 
     <>
-      <h2>Order</h2>
+      <h2>College Supplies</h2>
 
         <article>
             <p>Place your order below <i alt="hand pointing down icon"><FaRegHandPointDown/> </i></p>
@@ -17,10 +17,10 @@ function OrderPage({ products }) {
 
                         <thead>
                             <tr>
-                                <th scope="col">Company</th>
+                                <th scope="col">Seller</th>
                                 <th scope="col">Product</th>
                                 <th scope="col">Price</th>
-                                <th scope="col">Choice</th>
+                                <th scope="col">Quantity</th>
                             </tr>
                         </thead>
 

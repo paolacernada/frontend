@@ -2,11 +2,11 @@
 
 // Define a JavaScript object with arrays of products, their company names, and prices: 
 const products = [
-    { company: 'AGYM', product: 'Spinning Cat Scratcher Ball', price: 52.99 },
-    { company: 'Jasonwell', product: 'Foldable Dog Pool', price: 27.25 },
-    { company: 'Expawlorer', product: 'Dog Fence Window', price: 30.50 },
-    { company: 'Lollimeow', product: 'Capsule Pet Travel Backpack', price: 59.00 },
-    { company: 'Drool\'d', product: 'Cat Hamster Wheel', price: 349.75 }
+    { company: 'Staples', product: 'Notebooks', price: 5.99 },
+    { company: 'Amazon', product: 'Gel Pens, Dozen', price: 19.99 },
+    { company: 'The North Face', product: 'Jester Backpack', price: 75.00 },
+    { company: 'Target', product: 'Avery 1" Round Ring Binder', price: 2.19 },
+    { company: 'Walmart', product: 'Pen+Gear Copy Paper, 750 Sheets', price: 8.44 }
 ];
 
 // Allow exporting of the object to other functions:

@@ -57,7 +57,7 @@ function GalleryPage() {
   return (
 
     <>
-        <h2>Gallery</h2>
+        <h2>Gallery of Projects</h2>
 
         <p>Projects I have completed.</p>
 
