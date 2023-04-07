@@ -27,14 +27,14 @@ function App() {
     <>
       <BrowserRouter>
 
-      <header>
+      {/* <header>
 
         <h1>
           <i alt="heraldic sun icon"><GiHeraldicSun/> </i>
           Paola Cernada
           <i alt="palm tree icon"> <GiPalmTree/></i>
         </h1>
-      </header>
+      </header> */}
 
     {/* Global navigation component */}
       <Nav/>

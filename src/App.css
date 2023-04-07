@@ -78,12 +78,12 @@
   
   /*  ----- Page layout blocks -----  */
   header {
-      background-image: url(images/pc-header-background.png);
+      background-image: url(images/pc-header-background-1.png);
       /* background-color: var(--MorningBlue); */
       background-size: cover;
       border: none;
       color: var(--MediumSalmon);
-      line-height: 0.8;
+      /* line-height: 0.8; */
       margin: 0%;
       padding: 2%;
       text-align: center;
@@ -148,8 +148,8 @@
   
   nav a {
       background-color: var(--MorningBlue);
-      border: 2px solid var(--MediumPuce);
-      border-radius: 5px 5px;
+      /* border: 2px solid var(--MediumPuce);
+      border-radius: 5px 5px; */
       color: var(--DarkSlateGray);
       font-size: 1.3em;
       font-weight: bold;
@@ -165,7 +165,7 @@
   }
   
   #second-nav {
-      background-color: var(--PolishedPineTrans);
+      background-color: var(--MistyRose);
       padding: 1%;
       text-align: center;
       text-decoration: none;
@@ -681,7 +681,7 @@
 
 .image-gallery-slide .image-gallery-description{
     color: var(--MistyRose);
-    background: var(--PolishedPine);
+    background: var(--MorningBlue);
     font-family: inherit;
     bottom: auto;
     top: auto;
